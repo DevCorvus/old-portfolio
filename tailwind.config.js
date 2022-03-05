@@ -4,7 +4,6 @@ module.exports = {
     extend: {
       fontFamily: {
         'dosis': ['Dosis', 'sans-serif'],
-        'montserrat': ['Montserrat', 'sans-serif'],
       }
     },
   },
