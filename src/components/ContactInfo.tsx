@@ -1,4 +1,4 @@
-import { useState, useRef, CSSProperties } from 'react';
+import { useState, useEffect, useRef, CSSProperties } from 'react';
 import Image from 'next/image';
 import Logo from 'public/images/devcorvus-logo.svg';
 import Header from './Header';
@@ -38,6 +38,10 @@ export default function ContactInfo({ asPage = false }: { asPage?: boolean }) {
 			setEmail(CONTACT_EMAIL);
 		}, TWO_SECONDS);
 	};
+
+	useEffect(() => {
+		setEmail(means.email.title);
+	}, [means.email.title]);
 
 	const H = asPage ? 'h2' : 'h3';
 
