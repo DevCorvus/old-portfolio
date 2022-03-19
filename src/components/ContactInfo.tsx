@@ -70,9 +70,7 @@ export default function ContactInfo({ asPage = false }: { asPage?: boolean }) {
 						/>
 						<button onClick={handleEmail} type="button">
 							<div className="inline-flex items-center gap-2 transition-all duration-300 hover:text-violet-200 hover:scale-110 hover:ml-2">
-								<span className={asPage ? 'text-3xl' : 'text-xl'}>
-									{means.email.title}
-								</span>
+								<span className={asPage ? 'text-3xl' : 'text-xl'}>{email}</span>
 								<i
 									className={`fa fa-envelope ${asPage ? 'fa-2x' : 'fa-lg'}`}
 								></i>
