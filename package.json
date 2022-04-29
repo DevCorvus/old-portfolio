@@ -8,9 +8,6 @@
 		"email": "devcorvus.contact@gmail.com",
 		"url": "https://www.devcorvus.com"
 	},
-	"engines": {
-		"node": "^16"
-	},
 	"scripts": {
 		"dev": "next dev",
 		"build": "next build",

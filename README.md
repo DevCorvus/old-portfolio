@@ -14,8 +14,6 @@ This is the repo of my personal website and portfolio!
 - Next.js
 - TailwindCSS
 
----
-
 ## 🧪 Try it locally
 
 Just to play around with the code. The project structure is self-explanatory (I believe).
