@@ -104,8 +104,6 @@ export default function Skills() {
 					<ShowMore>
 						<Separator />
 						<Skill title="SQLite (Development)" level={2} />
-						{/* <Separator />
-            <Skill title='Redis' level={1} /> */}
 					</ShowMore>
 				</Box>
 			</section>
@@ -119,6 +117,8 @@ export default function Skills() {
 					<Skill title="Netlify" level={2}>
 						{details.netlify}
 					</Skill>
+					<Separator />
+					<Skill title="Vercel" level={1} />
 				</Box>
 			</section>
 			<section>

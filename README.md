@@ -1,34 +1,37 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# ✨ My Portfolio ✨
 
-## Getting Started
+This is the repo of my personal website and portfolio!
 
-First, run the development server:
+[![DevCorvus Preview](/public/images/devcorvus.png)](https://www.devcorvus.com)
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+**Check it out: https://www.devcorvus.com**
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## ⚗️ Tech stack
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+- TypeScript
+- Next.js
+- TailwindCSS
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+## Made with love, passion and fun 💖
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+The idea of building a portfolio has been around my mind for quite some time since I started this journey as a web developer, but first I wanted to finish a series of projects, which took me a long time to finish (around a year), these projects were primarily focused on learning and experience.
 
-## Learn More
+Each one contributed a lot to mature many of my skills and knowledge, through different technologies, philosophies and methods. The progress curve for me as a developer was practically exponential and very satisfying.
 
-To learn more about Next.js, take a look at the following resources:
+Finishing this portfolio in itself was the culmination of what I had started and marks the end of one stage and the beginning of another in my professional career as a software developer. Still, I know that I should never stop learning, especially in this field, which I personally love!
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+I didn't try to do something extravagant or commercial, just something that I could identify with; something with which to express myself and I feel like I successfully achieved that goal.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## What's next 💫
 
-## Deploy on Vercel
+I will add new projects, content and updates whenever I see fit, which probably won't be as often as I'd like as I tend to constantly focus on new goals until I'm done with them and that can mean a bit of a delay from time to time.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+In any case, I hope to continue learning and growing on this great journey through something that really interests me and about which I **developed** a passion, which was always something difficult to visualize for me and that means a lot.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Btw, thanks for reading, it means a lot to me! You'll find more details in the About section on the website and if there are any questions, suggestions or whatever, feel free to let me know.
+
+**_Fun Fact: This repository was initially private (as well as many others) because I felt a little hesitant about making it public._**
+
+![Embarrasing Gif](https://c.tenor.com/tEOcw6Pg5z4AAAAC/jim-and.gif)
+
+_\- DevCorvus._
