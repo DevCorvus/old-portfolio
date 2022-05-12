@@ -8,8 +8,9 @@ import useTranslation from '../hooks/useTranslation';
 
 const TWO_SECONDS = 2000;
 const CONTACT_EMAIL = 'devcorvus.contact@gmail.com';
+const CONTACT_DISCORD = 'DevCorvus#4833';
 
-const hiddenEmailInputStyles: CSSProperties = {
+const hiddenInputStyles: CSSProperties = {
 	position: 'absolute',
 	left: '100vw',
 };
@@ -22,20 +23,37 @@ const imageContainerStyles: CSSProperties = {
 
 export default function ContactInfo({ asPage = false }: { asPage?: boolean }) {
 	const {
-		contact: { title, means },
+		contact: { title, means, copied },
 	} = useTranslation();
+
 	const [email, setEmail] = useState<string>(means.email.title);
+	const [discord, setDiscord] = useState<string>('Discord');
+
 	const hiddenEmailInput = useRef<HTMLInputElement | null>(null);
+	const hiddenDiscordInput = useRef<HTMLInputElement | null>(null);
 
 	const handleEmail = () => {
 		hiddenEmailInput.current?.select();
 		hiddenEmailInput.current?.setSelectionRange(0, 99999);
 		document.execCommand('copy'); // There's no safe alternative to this method yet.
 
-		setEmail(means.email.copied);
+		setEmail(copied);
 
 		setTimeout(() => {
 			setEmail(CONTACT_EMAIL);
+		}, TWO_SECONDS);
+	};
+
+	// TODO: useContactCopy (?)
+	const handleDiscord = () => {
+		hiddenDiscordInput.current?.select();
+		hiddenDiscordInput.current?.setSelectionRange(0, 99999);
+		document.execCommand('copy');
+
+		setDiscord(copied);
+
+		setTimeout(() => {
+			setDiscord(CONTACT_DISCORD);
 		}, TWO_SECONDS);
 	};
 
@@ -70,7 +88,7 @@ export default function ContactInfo({ asPage = false }: { asPage?: boolean }) {
 						</H>
 						<input
 							tabIndex={-1}
-							style={hiddenEmailInputStyles}
+							style={hiddenInputStyles}
 							ref={hiddenEmailInput}
 							type="text"
 							defaultValue={CONTACT_EMAIL}
@@ -89,7 +107,7 @@ export default function ContactInfo({ asPage = false }: { asPage?: boolean }) {
 							} mt-1 flex items-center gap-1 text-rose-300 hover:text-rose-400 transition`}
 							href={`mailto:${CONTACT_EMAIL}`}
 						>
-							<span>Open Directly</span>
+							<span>{means.email.open}</span>
 							<svg
 								xmlns="http://www.w3.org/2000/svg"
 								className="h-3 w-3"
@@ -151,6 +169,33 @@ export default function ContactInfo({ asPage = false }: { asPage?: boolean }) {
 						</a>
 						{asPage && (
 							<p className="text-sm mt-2">{means.linkedIn.description}</p>
+						)}
+					</div>
+					<div>
+						<H
+							className={`${asPage ? '' : 'text-sm'} font-bold text-green-300`}
+						>
+							{means.discord.slug}
+						</H>
+						<input
+							tabIndex={-1}
+							style={hiddenInputStyles}
+							ref={hiddenDiscordInput}
+							type="text"
+							defaultValue={CONTACT_DISCORD}
+						/>
+						<button onClick={handleDiscord} type="button">
+							<div className="inline-flex items-center gap-2 transition-all duration-300 hover:text-violet-200 hover:scale-110 hover:ml-2">
+								<span className={asPage ? 'text-3xl' : 'text-xl'}>
+									{discord}
+								</span>
+								<i
+									className={`fab fa-discord ${asPage ? 'fa-2x' : 'fa-lg'}`}
+								></i>
+							</div>
+						</button>
+						{asPage && (
+							<p className="text-sm mt-2">{means.discord.description}</p>
 						)}
 					</div>
 				</nav>

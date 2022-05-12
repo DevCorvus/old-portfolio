@@ -73,7 +73,7 @@ const en = {
 			s8: 'Others',
 		},
 		intro: {
-			p1: 'As a fullstack web developer, my knowledge and skills mainly extend from the frontend to the backend and databases. Being React, TailwindCSS, ExpressJS (TypeScript), MongoDB/Postgres the technological stack in which I have more experience. Although there are also other options such as jQuery, Bootstrap, Laravel and Django.',
+			p1: 'As a fullstack web developer, my knowledge and skills mainly extend from the frontend to the backend and databases. Being React, TailwindCSS, Express.js (TypeScript), MongoDB/Postgres the technological stack in which I have more experience. Although there are also other options such as jQuery, Bootstrap, Laravel and Django.',
 			p2: 'I like to do things from scratch, in a logical and minimalist way, always trying to follow an organized, well-structured but dynamic development scheme, with the best practices that can be applied and that I constantly seek to improve without neglecting flexibility. The goal of this is to prioritize user experience, scalability, performance, and overall quality, keeping in mind that this varies from business to business.',
 			p3: 'If I had to choose between the frontend and the backend, I would definitely choose the backend in terms of what I like to work with the most and feel I am the best at. Although that does not mean that I leave the frontend and design aside, since in fact it is where I have invested more time through my projects. There are also other general knowledge and experiences in software development outside of the web for me, however, web development is where I currently perform the vast majority of my activities.',
 			p4: 'Passion for constant learning and new challenges, dedication, communication, adaptability and honesty, are usually the banner that I carry on...',
@@ -91,7 +91,7 @@ const en = {
 			jquery:
 				'The ultimate frontend library when not using a SPA framework. However, I prioritize vanilla JS and only use jQuery when really needed.',
 			gulp: 'Gulp is quite a useful toolkit for managing frontend projects without a traditional framework.',
-			node: 'The NodeJS ecosystem with TypeScript is by far the one I have the most experience and knowledge of, specifically ExpressJS and other frameworks like NextJS and Socket.IO. I just love it when it comes to REST APIs, SSR and so on.',
+			node: 'The NodeJS ecosystem with TypeScript is by far the one I have the most experience and knowledge of, specifically Express.js and other frameworks like Next.js and Socket.IO. I just love it when it comes to REST APIs, SSR and so on.',
 			laravel:
 				"To be honest, I'm not a fan of PHP, but Laravel is undeniably one of the frameworks most complete and best designed out there. If it can be done with Laravel, I would definitely choose Laravel.",
 			django:
@@ -133,7 +133,7 @@ const en = {
 				description:
 					'This is undoubtedly the best way to get in touch with me regardless of the topic, whether for business, development or mere curiosity through a dedicated email that I am always on the lookout for.',
 				title: 'Email',
-				copied: 'Copied!',
+				open: 'Open directly',
 			},
 			github: {
 				slug: 'Developer to Developer:',
@@ -145,7 +145,13 @@ const en = {
 				description:
 					"This is the preferred option that I leave available to talk about business, work and other related matters. I'm still kinda new to this environment but looking to integrate eventually.",
 			},
+			discord: {
+				slug: 'Where I am most active:',
+				description:
+					'If you want to chat with me directly, this is the best option.',
+			},
 		},
+		copied: 'Copied!',
 	},
 	about: {
 		title: 'About',
@@ -155,7 +161,7 @@ const en = {
 			p3: 'With this in mind, the design was one of the most important parts under consideration. Not to do something complex or extravagant, but to capture the essence of my own style and personality well, without going too far out of context.',
 			p4: 'For this reason, the design is minimalist with a fairly defined theme, relating to space and a bit of science fiction. Even my pseudonym as a developer and username in general takes its inspiration from a particular constellation that has a special meaning for me (Corvus).',
 			p5: 'Broadly speaking, I wanted the website to be simple, intuitive, accessible, very fast, scalable and good at SEO. To achieve this there was a lot of attention to detail about the user experience and I used a modern technology stack that I felt pretty comfortable with in the short and long term.',
-			p6: 'The code base is built on NextJS with TypeScript and TailwindCSS. Which is a set of technologies that fit perfectly with the purpose and objectives set with this project.',
+			p6: 'The code base is built on Next.js with TypeScript and TailwindCSS. Which is a set of technologies that fit perfectly with the purpose and objectives set with this project.',
 			p7: "Overall, it was quite an interesting and entertaining development that I plan to initially expand on over time. I don't know what direction it will take specifically but I have several ideas in mind.",
 			p8: 'In any case, I hope it has been a pleasant tour, explore some of my other projects and, if you wish to contact me, do not hesitate to do so.',
 			p9: 'Thank you for reading! ♥',
