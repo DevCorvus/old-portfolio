@@ -6,9 +6,23 @@ interface SkillInterface {
 	children?: ReactNode;
 	title: string;
 	level?: number;
+	interested?: boolean;
 }
 
-export default function Skill({ children, title, level = 0 }: SkillInterface) {
+interface SkillStatusInterface {
+	message: {
+		color: string;
+		text: string;
+	};
+	interested?: boolean;
+}
+
+export default function Skill({
+	children,
+	title,
+	level = 0,
+	interested,
+}: SkillInterface) {
 	const [hasDetails, setHasDetails] = useState<boolean>(false);
 	const [showDetails, setShowDetails] = useState<boolean>(false);
 	const {
@@ -96,12 +110,12 @@ export default function Skill({ children, title, level = 0 }: SkillInterface) {
 						</div>
 						<h3 className="text-xl font-bold">{title}</h3>
 					</div>
-					<span className={message.color}>{message.text}</span>
+					<SkillStatus message={message} interested={interested} />
 				</button>
 			) : (
 				<div className="flex justify-between items-center">
 					<h3 className="text-xl font-bold">{title}</h3>
-					<span className={message.color}>{message.text}</span>
+					<SkillStatus message={message} interested={interested} />
 				</div>
 			)}
 			{showDetails && (
@@ -111,6 +125,35 @@ export default function Skill({ children, title, level = 0 }: SkillInterface) {
 							item && <animated.p style={styles}>{children}</animated.p>
 					)}
 				</>
+			)}
+		</div>
+	);
+}
+
+function SkillStatus({ interested, message }: SkillStatusInterface) {
+	const {
+		skills: { interested: interestedText },
+	} = useTranslation();
+	return (
+		<div className="flex items-center gap-2">
+			<span className={message.color}>{message.text}</span>
+			{interested && (
+				<div title={interestedText} className="text-green-500 animate-pulse">
+					<svg
+						xmlns="http://www.w3.org/2000/svg"
+						className="h-4 w-4"
+						fill="none"
+						viewBox="0 0 24 24"
+						stroke="currentColor"
+						strokeWidth={2}
+					>
+						<path
+							strokeLinecap="round"
+							strokeLinejoin="round"
+							d="M5 11l7-7 7 7M5 19l7-7 7 7"
+						/>
+					</svg>
+				</div>
 			)}
 		</div>
 	);

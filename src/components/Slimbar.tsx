@@ -31,7 +31,7 @@ export default function Slimbar() {
 	return (
 		<div
 			style={backgroundStyle}
-			className={`z-30 transition-all duration-300 ${
+			className={`z-30 transition-all duration-500 ${
 				bounce ? 'opacity-100' : 'opacity-0'
 			} fixed top-0 w-full text-white`}
 		>
@@ -46,6 +46,14 @@ export default function Slimbar() {
 					<header className="text-2xl">
 						<Link href="/">DEVCORVUS</Link>
 					</header>
+					<div className="text-blue-500 text-xs absolute top-2 left-0 w-full h-full opacity-50 select-none">
+						<div className="animate-pulse">
+							<span className="absolute left-44 top-2">✦</span>
+							<span className="absolute left-56 top-5">✦</span>
+							<span className="absolute left-64 -top-1">✦</span>
+							<span className="absolute left-80 top-2">✦</span>
+						</div>
+					</div>
 					<ul className="hidden lg:flex gap-4">
 						<Links />
 					</ul>
@@ -87,16 +95,6 @@ export default function Slimbar() {
 						)}
 					</button>
 				</nav>
-				<div className="relative">
-					<div className="text-blue-500 text-xs absolute top-0 left-0 w-full h-full opacity-50 select-none">
-						<div className="animate-pulse">
-							<span className="absolute left-44 top-2">✦</span>
-							<span className="absolute left-56 top-5">✦</span>
-							<span className="absolute left-64 -top-1">✦</span>
-							<span className="absolute left-80 top-2">✦</span>
-						</div>
-					</div>
-				</div>
 			</div>
 			{transitions(
 				(styles, item) =>

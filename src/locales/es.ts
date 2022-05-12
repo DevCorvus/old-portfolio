@@ -74,15 +74,15 @@ const es = {
 			s8: 'Otros',
 		},
 		intro: {
-			p1: 'Como desarrollador web fullstack, mis conocimientos y habilidades se extienden principalmente desde el frontend hasta el backend y las bases de datos. Siendo React, TailwindCSS, Express.js (TypeScript), MongoDB/Postgres el stack tecnológico en el que tengo más experiencia. Aunque también existen otras opciones como jQuery, Bootstrap, Laravel y Django.',
-			p2: 'Me gusta hacer cosas desde cero, de manera lógica y minimalista, tratando de seguir siempre un esquema de desarrollo organizado, bien estructurado pero dinámico, con las mejores prácticas que se pueden aplicar y que busco mejorar constantemente sin dejar de lado la flexibilidad. El objetivo de esto es priorizar la experiencia del usuario, la escalabilidad, el rendimiento y la calidad general, teniendo en cuenta que esto varía dependiendo de las necesidades del negocio.',
+			p1: 'Como desarrollador web fullstack, mis conocimientos y habilidades se extienden principalmente desde el frontend hasta el backend y las bases de datos. Siendo React, TailwindCSS, Express.js (TypeScript), MongoDB/Postgres el stack tecnológico en el que tengo más experiencia.',
+			p2: 'Me gusta crear cosas desde cero, de manera lógica y minimalista, tratando de seguir siempre un esquema de desarrollo organizado, bien estructurado pero dinámico, con las mejores prácticas que se pueden aplicar y que busco mejorar constantemente sin dejar de lado la flexibilidad. El objetivo de esto es priorizar la experiencia del usuario, la escalabilidad, el rendimiento y la calidad general, teniendo en cuenta que esto varía dependiendo de las necesidades del negocio.',
 			p3: 'Si tuviera que elegir entre el frontend y el backend, definitivamente elegiría el backend en términos de lo que más me gusta trabajar y en lo que siento que se me da mejor. Aunque eso no quiere decir que deje de lado el frontend y el diseño, ya que de hecho es donde más tiempo he invertido a través de mis proyectos. También existen otras experiencias y conocimientos generales en desarrollo de software fuera de la web para mi, aún así, en desarrollo web es donde desempeño la inmensa mayoría de mis actividades actualmente.',
 			p4: 'Pasión por el aprendizaje constante y nuevos retos, dedicación, comunicación, adaptabilidad y honestidad, son usualmente el estandarte que llevo conmigo...',
-			p5: 'A continuación, podrás explorar diferentes categorías que destacan las tecnologías y herramientas con las que tengo alguna experiencia, clasificadas de Bajo a Experto en una combinación de conocimiento y experiencia que mantendré actualizada:',
+			p5: 'A continuación, podrás explorar diferentes categorías que destacan las tecnologías y herramientas con las que tengo alguna experiencia o interés, clasificadas de Bajo a Experto en una combinación de conocimiento y experiencia que mantendré actualizada:',
 		},
 		details: {
 			react:
-				'React y su ecosistema (React Router, Redux, etc) es el principal framework de JavaScript que uso y con el que tengo más experiencia. Se siente como la herramienta más cómoda para mi en el desarrollo SPA y la adoro aunque sé que no es ni cerca de ser perfecta.',
+				'React y su ecosistema (React Router, Redux toolkit, styled-components, etc) es el principal framework (como conjunto) de JavaScript que uso y con el que tengo más experiencia. Se siente como la herramienta más cómoda para mi en el desarrollo SPA y la adoro aunque sé que no es ni cerca de ser perfecta.',
 			tailwind:
 				'Es el principal framework de CSS que utilizo, especialmente para incrementar la productividad en diseños más detallados basados en componentes.',
 			bootstrap:
@@ -91,7 +91,6 @@ const es = {
 			css: 'Lo amo y lo odio al mismo tiempo, CSS es una herramienta muy poderosa que me ha costado un poco pillarle el truco. Pero una vez lo hice empecé a pillarle cierto gusto y trato de mejorar en ella cada vez que tengo la oportunidad.',
 			jquery:
 				'La librería frontend definitiva cuando no se utiliza un framework SPA. Sin embargo, priorizo vanilla JS y sólo utilizo jQuery cuando realmente hace falta.',
-			gulp: 'Gulp es un kit de herramientas bastante útil para gestionar proyectos frontend sin un framework tradicional.',
 			node: 'El ecosistema de NodeJS con TypeScript es de lejos la opción con la que tengo más conocimientos y experiencia, específicamente Express.js y otros frameworks como Next.js y Socket.IO. Me encanta cuando se trata de REST APIs, SSR y demás.',
 			laravel:
 				'Para ser honesto, no soy fan de PHP, pero es innegable que Laravel es uno de los frameworks más completos y mejor diseñados que hay. Si puede hacerse con Laravel, sin duda escogería Laravel.',
@@ -116,6 +115,10 @@ const es = {
 			php: 'Como dije en la sección de Laravel, no estoy enamorado de este lenguaje en comparación con otras opciones, pero en ningún momento he renegado su utilidad y, de hecho, he desarrollado una considerable experiencia con él debido a su similitud con otros lenguajes y gracias a una poderosa herramienta como lo es Laravel. No hay ningún truco en usarlo.',
 			rust: 'No tengo ningún proyecto desarrollado con este lenguaje. Literalmente sólo lo he aprendido y utilizado como un pasatiempo y aún así es uno de mis lenguajes de programación favoritos y con el que considero algún potencial en el futuro.',
 			git: 'La herramienta que todo desarrollador de software debe tener.',
+			vite: 'Este es el kit de desarrollo con el que empiezo la mayoría de mis proyectos frontend.',
+			go: 'Buscando una alternativa backend con mejor rendimiento que TypeScript pero no tan compleja de integrar como Rust, Go ha sido el perfecto balance entre simpleza y alto rendimiento, especialmente para el desarrollo backend. Espero adoptarlo de manera más frecuente entre mis principales herramientas de trabajo.',
+			cSharp:
+				'Este es un lenguaje de programación que siempre me ha parecido en general muy útil y cómodo (dejando de lado su aproximación orientada a objetos) pero al que no le he encontrado un uso ideal en mi trabajo actual.',
 		},
 		levels: {
 			unknown: 'Desconocido',
@@ -125,6 +128,7 @@ const es = {
 			veryGood: 'Muy Bueno',
 			expert: 'Experto',
 		},
+		interested: 'Interés alto',
 	},
 	contact: {
 		title: 'Contacto',

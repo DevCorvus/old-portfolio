@@ -73,15 +73,15 @@ const en = {
 			s8: 'Others',
 		},
 		intro: {
-			p1: 'As a fullstack web developer, my knowledge and skills mainly extend from the frontend to the backend and databases. Being React, TailwindCSS, Express.js (TypeScript), MongoDB/Postgres the technological stack in which I have more experience. Although there are also other options such as jQuery, Bootstrap, Laravel and Django.',
-			p2: 'I like to do things from scratch, in a logical and minimalist way, always trying to follow an organized, well-structured but dynamic development scheme, with the best practices that can be applied and that I constantly seek to improve without neglecting flexibility. The goal of this is to prioritize user experience, scalability, performance, and overall quality, keeping in mind that this varies from business to business.',
+			p1: 'As a fullstack web developer, my knowledge and skills mainly extend from the frontend to the backend and databases. Being React, TailwindCSS, Express.js (TypeScript), MongoDB/Postgres the technological stack in which I have more experience.',
+			p2: 'I like to make things from scratch, in a logical and minimalist way, always trying to follow an organized, well-structured but dynamic development scheme, with the best practices that can be applied and that I constantly seek to improve without neglecting flexibility. The goal of this is to prioritize user experience, scalability, performance, and overall quality, keeping in mind that this varies from business to business.',
 			p3: 'If I had to choose between the frontend and the backend, I would definitely choose the backend in terms of what I like to work with the most and feel I am the best at. Although that does not mean that I leave the frontend and design aside, since in fact it is where I have invested more time through my projects. There are also other general knowledge and experiences in software development outside of the web for me, however, web development is where I currently perform the vast majority of my activities.',
 			p4: 'Passion for constant learning and new challenges, dedication, communication, adaptability and honesty, are usually the banner that I carry on...',
-			p5: "Below, you'll be able to explore through different categories highlighting the technologies and tools I have some experience with, ranked from Low to Expert on a combination of knowledge and experience that I will keep up to date:",
+			p5: "Below, you'll be able to explore through different categories highlighting the technologies and tools I have some experience with or interest, ranked from Low to Expert on a combination of knowledge and experience that I will keep up to date:",
 		},
 		details: {
 			react:
-				"React and its ecosystem (React Router, Redux, etc) is the main JavaScript framework I use and have the most experience with. It just feels like the most comfortable tool for me in SPA development and I love it even though I know it's not nowhere near perfect.",
+				"React and its ecosystem (React Router, Redux toolkit, styled-components, etc) is the main JavaScript framework (as a set) I use and have the most experience with. It just feels like the most comfortable tool for me in SPA development and I love it even though I know it's not nowhere near perfect.",
 			tailwind:
 				'It is the main CSS framework I use, especially to increase productivity on more detailed component-based designs.',
 			bootstrap:
@@ -90,7 +90,6 @@ const en = {
 			css: 'I love it and hate it at the same time, CSS is such a powerful tool that it took me a while to get the hang of it. But once I did I started to take a liking to it and try to get better at it whenever I get the chance.',
 			jquery:
 				'The ultimate frontend library when not using a SPA framework. However, I prioritize vanilla JS and only use jQuery when really needed.',
-			gulp: 'Gulp is quite a useful toolkit for managing frontend projects without a traditional framework.',
 			node: 'The NodeJS ecosystem with TypeScript is by far the one I have the most experience and knowledge of, specifically Express.js and other frameworks like Next.js and Socket.IO. I just love it when it comes to REST APIs, SSR and so on.',
 			laravel:
 				"To be honest, I'm not a fan of PHP, but Laravel is undeniably one of the frameworks most complete and best designed out there. If it can be done with Laravel, I would definitely choose Laravel.",
@@ -115,6 +114,10 @@ const en = {
 			php: 'As I said in the Laravel section, I am not in love with this language compared to other options, but I have never denied its usefulness and, in fact, I have developed considerable experience with it due to its similarity with other languages and thanks to a powerful tool like Laravel. There is no trick to use it.',
 			rust: "I don't have any project developed with this language. I have literally only learned and used it as a hobby and yet it is one of my favorite programming languages and one that I see some potential for in the future.",
 			git: 'The tool that every software developer must have.',
+			vite: 'This is the development kit I start most of my projects with.',
+			go: 'Looking for a better performing backend alternative to TypeScript but not as complex to integrate as Rust, Go has been the perfect balance between simplicity and high performance, especially for backend development. I hope to adopt it more frequently among my main work tools.',
+			cSharp:
+				'This is a programming language that I have always found generally very useful and comfortable (leaving aside its object-oriented approach) but I have not found an ideal use for it in my current work.',
 		},
 		levels: {
 			unknown: 'Unknown',
@@ -124,6 +127,7 @@ const en = {
 			veryGood: 'Very Good',
 			expert: 'Expert',
 		},
+		interested: 'High interest',
 	},
 	contact: {
 		title: 'Contact',

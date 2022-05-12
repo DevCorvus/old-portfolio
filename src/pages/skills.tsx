@@ -36,9 +36,9 @@ export default function Skills() {
 						{details.tailwind}
 					</Skill>
 					<Separator />
-					<Skill title="Vite.js" level={2}></Skill>
-					<Separator />
-					<Skill title="Styled Components" level={2}></Skill>
+					<Skill title="Vite.js" level={2}>
+						{details.vite}
+					</Skill>
 					<Separator />
 					<ShowMore>
 						<Skill title="HTML" level={4}>
@@ -57,9 +57,7 @@ export default function Skills() {
 							{details.jquery}
 						</Skill>
 						<Separator />
-						<Skill title="Gulp" level={2}>
-							{details.gulp}
-						</Skill>
+						<Skill title="Gulp" level={2} />
 						<Separator />
 						<Skill title="Vue" level={1} />
 						<Separator />
@@ -70,7 +68,7 @@ export default function Skills() {
 			<section>
 				<Subtitle>{subtitles.s2}</Subtitle>
 				<Box>
-					<Skill title="Node.js + TypeScript" level={5}>
+					<Skill title="Node.js + TypeScript" level={5} interested>
 						{details.node}
 					</Skill>
 					<Separator />
@@ -78,21 +76,19 @@ export default function Skills() {
 						{details.laravel}
 					</Skill>
 					<Separator />
-					<Skill title="Django" level={3}>
+					<Skill title="Django" level={2}>
 						{details.django}
 					</Skill>
 					<ShowMore>
 						<Separator />
-						<Skill title="Flask" level={2} />
-						{/* <Separator />
-						<Skill title="Nest.js" level={1} /> */}
+						<Skill title="Flask" level={1} />
 					</ShowMore>
 				</Box>
 			</section>
 			<section>
 				<Subtitle>{subtitles.s3}</Subtitle>
 				<Box>
-					<Skill title="Postgres" level={3}>
+					<Skill title="Postgres" level={3} interested>
 						{details.postgres}
 					</Skill>
 					<Separator />
@@ -130,7 +126,7 @@ export default function Skills() {
 						{details.javascript}
 					</Skill>
 					<Separator />
-					<Skill title="TypeScript" level={4}>
+					<Skill title="TypeScript" level={4} interested>
 						{details.typescript}
 					</Skill>
 					<Separator />
@@ -139,7 +135,7 @@ export default function Skills() {
 					</Skill>
 					<ShowMore>
 						<Separator />
-						<Skill title="Rust" level={2}>
+						<Skill title="Rust" level={2} interested>
 							{details.rust}
 						</Skill>
 						<Separator />
@@ -147,9 +143,13 @@ export default function Skills() {
 							{details.php}
 						</Skill>
 						<Separator />
-						<Skill title="Go" level={1}></Skill>
+						<Skill title="Go" level={1} interested>
+							{details.go}
+						</Skill>
 						<Separator />
-						<Skill title="C#" level={1}></Skill>
+						<Skill title="C#" level={1}>
+							{details.cSharp}
+						</Skill>
 					</ShowMore>
 				</Box>
 			</section>
@@ -157,7 +157,7 @@ export default function Skills() {
 				<section>
 					<Subtitle>{subtitles.s6}</Subtitle>
 					<Box>
-						<Skill title="Prisma" level={3} />
+						<Skill title="Prisma" level={2} interested />
 						<Separator />
 						<Skill title="TypeORM" level={2} />
 						<Separator />
@@ -196,9 +196,9 @@ export default function Skills() {
 							<Separator />
 							<Skill title="Webpack" level={2} />
 							<Separator />
-							<Skill title="Docker" level={1} />
+							<Skill title="Docker" level={1} interested />
 							<Separator />
-							<Skill title="GraphQL" level={1} />
+							<Skill title="GraphQL" level={1} interested />
 						</ShowMore>
 					</Box>
 				</section>
