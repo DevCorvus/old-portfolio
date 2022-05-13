@@ -18,11 +18,12 @@ export default function Skills() {
 				<Box>
 					<p>{intro.p1}</p>
 					<p>{intro.p2}</p>
+					<p>{intro.p3}</p>
 					<ReadMore>
-						<p>{intro.p3}</p>
 						<p>{intro.p4}</p>
+						<p>{intro.p5}</p>
 					</ReadMore>
-					<p>{intro.p5}</p>
+					<p>{intro.p6}</p>
 				</Box>
 			</section>
 			<section>
@@ -143,7 +144,7 @@ export default function Skills() {
 							{details.php}
 						</Skill>
 						<Separator />
-						<Skill title="Go" level={1} interested>
+						<Skill title="GO" level={1} interested>
 							{details.go}
 						</Skill>
 						<Separator />

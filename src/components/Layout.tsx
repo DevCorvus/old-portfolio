@@ -7,16 +7,15 @@ import Footer from './Footer';
 import ContactPanel from './ContactInfo';
 import CurrentStatus from './CurrentStatus';
 import useBounce from '../hooks/useBounce';
+import useTranslation from '../hooks/useTranslation';
 import LayoutContext from '../contexts/LayoutContext';
 
-const TITLE = 'DevCorvus | Web Developer';
-const DESCRIPTION =
-	'Fullstack Web Developer portfolio. Building the software infrastructure of the future, one step at a time.';
 const IMAGE_PREVIEW_LINK =
 	'https://i.ibb.co/0m9zYMG/devcorvus-image-preview.png';
 
 export default function Layout({ children }: { children: ReactNode }) {
 	const router = useRouter();
+	const { title: TITLE, description: DESCRIPTION } = useTranslation();
 	const [showContactPanel, setShowContactPanel] = useState<boolean>(true);
 	const [showContentButton, setShowContentButton] = useState<boolean>(false);
 	const [showEasterEgg, setEasterEgg] = useState<boolean>(false);

@@ -1,4 +1,7 @@
 const es = {
+	title: 'DevCorvus | Desarrollador Web',
+	description:
+		'Construyendo la infraestructura de software del futuro, un commit y deploy a la vez. Mi nombre es Luis Portillo y soy Desarrollador Web profesional desde 2020, este es mi sitio web personal y portafolio. Interstellar Dream enjoyer 🌌',
 	navbar: {
 		home: 'Inicio',
 		projects: 'Proyectos',
@@ -21,7 +24,7 @@ const es = {
 				p3: 'Desde entonces estuve constantemente aprendiendo de forma autodidacta, invirtiendo casi todo mi tiempo, día tras día... siguiendo lo que acababa de convertirse en mi pasión.',
 				p4: 'Aunque esto es, de hecho, una cuestión de negocios. Siempre quise hacer grandes cosas con todo esto, no solo para la gente sino para mí mismo, tratando de convertirme en un mejor desarrollador y una mejor persona.',
 			},
-			do: 'Como desarrollador web fullstack, construyo, mantengo y despliego sitios web, aplicaciones web, REST APIs y demás. Justo como este.',
+			do: 'Como desarrollador web fullstack, construyo, mantengo y despliego sitios web, aplicaciones web, REST APIs y demás (justo como este). Me especializo en el apartado del servidor (backend), donde poseo más experiencia y me siento más cómodo en general. Mi principal stack tecnológico es MERN/PERN con TypeScript.',
 			next: {
 				p1: 'Este es sólo el comienzo de mis aventuras como desarrollador freelance pero lo enfrento con bastante entusiasmo de cara al presente y futuro de este proyecto.',
 				p2: 'Habrán muchos cambios en esta web, actualizaciones, mejoras y nuevo contenido a través del tiempo y estaría genial que les eches un ojo.',
@@ -74,11 +77,12 @@ const es = {
 			s8: 'Otros',
 		},
 		intro: {
-			p1: 'Como desarrollador web fullstack, mis conocimientos y habilidades se extienden principalmente desde el frontend hasta el backend y las bases de datos. Siendo React, TailwindCSS, Express.js (TypeScript), MongoDB/Postgres el stack tecnológico en el que tengo más experiencia.',
-			p2: 'Me gusta crear cosas desde cero, de manera lógica y minimalista, tratando de seguir siempre un esquema de desarrollo organizado, bien estructurado pero dinámico, con las mejores prácticas que se pueden aplicar y que busco mejorar constantemente sin dejar de lado la flexibilidad. El objetivo de esto es priorizar la experiencia del usuario, la escalabilidad, el rendimiento y la calidad general, teniendo en cuenta que esto varía dependiendo de las necesidades del negocio.',
-			p3: 'Si tuviera que elegir entre el frontend y el backend, definitivamente elegiría el backend en términos de lo que más me gusta trabajar y en lo que siento que se me da mejor. Aunque eso no quiere decir que deje de lado el frontend y el diseño, ya que de hecho es donde más tiempo he invertido a través de mis proyectos. También existen otras experiencias y conocimientos generales en desarrollo de software fuera de la web para mi, aún así, en desarrollo web es donde desempeño la inmensa mayoría de mis actividades actualmente.',
-			p4: 'Pasión por el aprendizaje constante y nuevos retos, dedicación, comunicación, adaptabilidad y honestidad, son usualmente el estandarte que llevo conmigo...',
-			p5: 'A continuación, podrás explorar diferentes categorías que destacan las tecnologías y herramientas con las que tengo alguna experiencia o interés, clasificadas de Bajo a Experto en una combinación de conocimiento y experiencia que mantendré actualizada:',
+			p1: 'Como desarrollador web fullstack, mis conocimientos y habilidades se extienden desde el frontend hasta el backend y las bases de datos (principalmente backend, donde busco especializarme). Siendo React, TailwindCSS, Express.js + TypeScript, MongoDB/Postgres el stack tecnológico en el que tengo más experiencia y me siento más cómodo.',
+			p2: 'Me gusta crear cosas desde cero, con pruebas constantes (manuales o automáticas), de manera lógica y minimalista, tratando de seguir siempre un esquema de desarrollo organizado, bien estructurado pero dinámico, con las mejores prácticas que se pueden aplicar y que busco mejorar constantemente sin dejar de lado la flexibilidad. El objetivo de esto es priorizar la experiencia del usuario, la escalabilidad, el rendimiento y la calidad general, teniendo en cuenta que esto varía dependiendo de las necesidades del negocio.',
+			p3: 'En mi experiencia, el código es, en realidad, la parte menos importante de cualquier proyecto serio. Es por esto que suelo enfocarme mucho más en las fases tempranas de desarrollo, que comienzan con los requisitos, planificación, herramientas y una amplia variedad de factores a tener en cuenta antes de escribir siquiera la primera línea de código. Esto acelera el proceso y ofrece mejores resultados, especialmente a largo plazo.',
+			p4: 'Si tuviera que elegir entre el frontend y el backend, definitivamente elegiría el backend en términos de lo que más me gusta trabajar y en lo que siento que se me da mejor. Aunque eso no quiere decir que deje de lado el frontend y el diseño, ya que de hecho es una parte donde he invertido mucho tiempo a través de mis proyectos. También existen otras experiencias y conocimientos generales en desarrollo de software fuera de la web para mi, aún así, en desarrollo web es donde desempeño la inmensa mayoría de mis actividades actualmente.',
+			p5: 'Pasión por el aprendizaje constante y nuevos retos, dedicación, comunicación, adaptabilidad y honestidad, son usualmente el estandarte que llevo conmigo.',
+			p6: 'A continuación, podrás explorar diferentes categorías que destacan las tecnologías y herramientas con las que tengo alguna experiencia o interés, clasificadas de "Novato" a "Con los ojos cerrados" en una combinación de conocimiento y experiencia que mantendré actualizada:',
 		},
 		details: {
 			react:
@@ -122,11 +126,11 @@ const es = {
 		},
 		levels: {
 			unknown: 'Desconocido',
-			low: 'Bajo',
-			medium: 'Medio',
-			good: 'Bueno',
-			veryGood: 'Muy Bueno',
-			expert: 'Experto',
+			low: 'Novato',
+			medium: 'Más o menos',
+			good: 'Decente',
+			veryGood: 'Confiado',
+			expert: 'Con los ojos cerrados',
 		},
 		interested: 'Interés alto',
 	},

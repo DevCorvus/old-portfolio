@@ -1,4 +1,7 @@
 const en = {
+	title: 'DevCorvus | Web Developer',
+	description:
+		"Building the software infrastructure of the future, one commit and deploy at a time. My name is Luis Portillo and I'm a professional Web Developer since 2020, this is just my personal website and portfolio. Interstellar Dream enjoyer 🌌",
 	navbar: {
 		home: 'Home',
 		projects: 'Projects',
@@ -21,7 +24,7 @@ const en = {
 				p3: 'Since then I was constantly learning on the self-taught way, investing almost all my time, day after day... following what just turned into my passion.',
 				p4: 'Even though this is, in fact, a matter of bussineses. I always wanted to make great things with all of this, not only for the people but for myself, trying to become a better developer and a better person.',
 			},
-			do: 'As a fullstack web developer, I build, maintain and deploy websites, web applications, REST APIs and more. Just like this one.',
+			do: 'As a fullstack web developer, I build, maintain and deploy websites, web applications, REST APIs and more (just like this one). I specialize in the server side (backend), where I have more experience and feel more comfortable in general. My main tech stack is MERN/PERN with TypeScript.',
 			next: {
 				p1: 'This is only the beginning of my adventures as a freelance developer but I face it with great enthusiasm for the present and future of this project.',
 				p2: 'There will be many changes to this website, updates, improvements and new content over time and it would be great if you keep an eye on them.',
@@ -73,11 +76,12 @@ const en = {
 			s8: 'Others',
 		},
 		intro: {
-			p1: 'As a fullstack web developer, my knowledge and skills mainly extend from the frontend to the backend and databases. Being React, TailwindCSS, Express.js (TypeScript), MongoDB/Postgres the technological stack in which I have more experience.',
-			p2: 'I like to make things from scratch, in a logical and minimalist way, always trying to follow an organized, well-structured but dynamic development scheme, with the best practices that can be applied and that I constantly seek to improve without neglecting flexibility. The goal of this is to prioritize user experience, scalability, performance, and overall quality, keeping in mind that this varies from business to business.',
-			p3: 'If I had to choose between the frontend and the backend, I would definitely choose the backend in terms of what I like to work with the most and feel I am the best at. Although that does not mean that I leave the frontend and design aside, since in fact it is where I have invested more time through my projects. There are also other general knowledge and experiences in software development outside of the web for me, however, web development is where I currently perform the vast majority of my activities.',
-			p4: 'Passion for constant learning and new challenges, dedication, communication, adaptability and honesty, are usually the banner that I carry on...',
-			p5: "Below, you'll be able to explore through different categories highlighting the technologies and tools I have some experience with or interest, ranked from Low to Expert on a combination of knowledge and experience that I will keep up to date:",
+			p1: "As a fullstack web developer, my knowledge and skills extend from frontend to backend and databases (primarily backend, where I'm looking to specialize). Being React, TailwindCSS, Express.js + TypeScript, MongoDB/Postgres the technological stack in which I have more experience and feel more comfortable.",
+			p2: 'In my experience, code is actually the least important part of any serious project. This is why I tend to focus much more on the early phases of development, which start with requirements, planning, tools, and a wide variety of factors to consider before even writing the first line of code. This speeds up the process and offers better results, especially in the long run.',
+			p3: 'If I had to choose between the frontend and the backend, I would definitely choose the backend in terms of what I like to work with the most and what I feel I am best at. Although that does not mean that I leave aside the frontend and the design, since in fact it is a part where I have invested a lot of time through my projects. There are also other general knowledge and experiences in software development outside of the web for me, however, web development is where I currently carry out the vast majority of my activities.',
+			p4: 'I like to make things from scratch, with constant tests (manual or automatic), in a logical and minimalist way, always trying to follow an organized, well-structured but dynamic development scheme, with the best practices that can be applied and that I constantly seek to improve without sacrificing flexibility. The goal of this is to prioritize user experience, scalability, performance, and overall quality, keeping in mind that this varies depending on business needs.',
+			p5: 'Passion for constant learning and new challenges, dedication, communication, adaptability and honesty, are usually the banner that I carry on.',
+			p6: 'Below, you\'ll be able to explore through different categories highlighting the technologies and tools I have some experience with or interest, ranked from "Noob" to "With eyes closed" on a combination of knowledge and experience that I will keep up to date:',
 		},
 		details: {
 			react:
@@ -121,11 +125,11 @@ const en = {
 		},
 		levels: {
 			unknown: 'Unknown',
-			low: 'Low',
-			medium: 'Medium',
-			good: 'Good',
-			veryGood: 'Very Good',
-			expert: 'Expert',
+			low: 'Noob',
+			medium: 'Regular',
+			good: 'Decent',
+			veryGood: 'Confident',
+			expert: 'With eyes closed',
 		},
 		interested: 'High interest',
 	},

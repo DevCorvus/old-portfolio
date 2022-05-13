@@ -1,9 +1,17 @@
+import { CSSProperties } from 'react';
 import Image from 'next/image';
 import Avatar from 'public/images/Avatar.svg';
 import Header from '../components/Header';
 import Box from '../components/Box';
 import Subtitle from '../components/Subtitle';
 import useTranslation from '../hooks/useTranslation';
+
+const avatarBackgroundStyles: CSSProperties = {
+	backgroundImage: 'url("/images/avatar-background.jpg")',
+	backgroundSize: 'scale',
+	backgroundPosition: 'center',
+	backgroundRepeat: 'no-repeat',
+};
 
 export default function Home() {
 	const {
@@ -23,7 +31,10 @@ export default function Home() {
 				<Subtitle>{content.subtitle1}</Subtitle>
 				<Box>
 					<div>
-						<div className="float-right ml-2 w-52 h-52 ring ring-violet-300 rounded-full bg-black">
+						<div
+							className="float-right ml-2 w-52 h-52 border border-blue-400 rounded-full"
+							style={avatarBackgroundStyles}
+						>
 							<Image
 								className="rounded-full"
 								src={Avatar}
