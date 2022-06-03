@@ -46,7 +46,7 @@ export default function Slimbar() {
 					<header className="text-2xl">
 						<Link href="/">DEVCORVUS</Link>
 					</header>
-					<div className="text-blue-500 text-xs absolute top-2 left-0 w-full h-full opacity-50 select-none">
+					<div className="text-blue-500 text-xs absolute top-2 left-0 w-full h-full opacity-50 select-none pointer-events-none touch-none">
 						<div className="animate-pulse">
 							<span className="absolute left-44 top-2">✦</span>
 							<span className="absolute left-56 top-5">✦</span>
