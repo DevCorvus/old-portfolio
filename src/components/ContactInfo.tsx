@@ -154,7 +154,7 @@ export default function ContactInfo({ asPage = false }: { asPage?: boolean }) {
 							{means.linkedIn.slug}
 						</H>
 						<a
-							href="https://www.linkedin.com/in/luis-portillo-0b0a371bb/"
+							href="https://www.linkedin.com/in/devcorvus/"
 							target="_blank"
 							rel="noreferrer"
 						>
