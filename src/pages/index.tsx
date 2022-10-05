@@ -1,10 +1,10 @@
-import { CSSProperties } from 'react';
 import Image from 'next/image';
 import Avatar from 'public/images/Avatar.svg';
-import Header from '../components/Header';
-import Box from '../components/Box';
-import Subtitle from '../components/Subtitle';
-import useTranslation from '../hooks/useTranslation';
+import { CSSProperties } from 'react';
+import Box from 'src/components/Box';
+import Header from 'src/components/Header';
+import Subtitle from 'src/components/Subtitle';
+import useTranslation from 'src/hooks/useTranslation';
 
 const avatarBackgroundStyles: CSSProperties = {
 	backgroundImage: 'url("/images/avatar-background.jpg")',

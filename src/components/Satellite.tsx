@@ -1,4 +1,4 @@
-import type { CSSProperties } from 'react';
+import { CSSProperties } from 'react';
 
 const animationProperties: CSSProperties = {
 	transform: 'rotateY(180deg)',

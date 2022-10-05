@@ -1,6 +1,7 @@
-import { ReactNode, useState, useEffect } from 'react';
-import { useTransition, animated } from '@react-spring/web';
-import useTranslation from '../hooks/useTranslation';
+import { ReactNode, useEffect, useState } from 'react';
+import useTranslation from 'src/hooks/useTranslation';
+
+import { animated, useTransition } from '@react-spring/web';
 
 interface SkillInterface {
 	children?: ReactNode;

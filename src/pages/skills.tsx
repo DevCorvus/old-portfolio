@@ -1,11 +1,11 @@
-import Header from '../components/Header';
-import Subtitle from '../components/Subtitle';
-import Box from '../components/Box';
-import Skill from '../components/Skill';
-import Separator from '../components/Separator';
-import ShowMore from '../components/ShowMore';
-import ReadMore from '../components/ReadMore';
-import useTranslation from '../hooks/useTranslation';
+import Box from 'src/components/Box';
+import Header from 'src/components/Header';
+import ReadMore from 'src/components/ReadMore';
+import Separator from 'src/components/Separator';
+import ShowMore from 'src/components/ShowMore';
+import Skill from 'src/components/Skill';
+import Subtitle from 'src/components/Subtitle';
+import useTranslation from 'src/hooks/useTranslation';
 
 export default function Skills() {
 	const {
@@ -29,19 +29,23 @@ export default function Skills() {
 			<section>
 				<Subtitle>{subtitles.s1}</Subtitle>
 				<Box>
-					<Skill title="React.js" level={4}>
+					<Skill title="React.js" level={4} interested>
 						{details.react}
 					</Skill>
 					<Separator />
-					<Skill title="TailwindCSS" level={4}>
+					<Skill title="TailwindCSS" level={3}>
 						{details.tailwind}
 					</Skill>
 					<Separator />
-					<Skill title="Vite.js" level={2}>
-						{details.vite}
+					<Skill title="Vue" level={3}>
+						{details.vue}
 					</Skill>
-					<Separator />
 					<ShowMore>
+						<Separator />
+						<Skill title="Vite.js" level={3}>
+							{details.vite}
+						</Skill>
+						<Separator />
 						<Skill title="HTML" level={4}>
 							{details.html}
 						</Skill>
@@ -58,9 +62,7 @@ export default function Skills() {
 							{details.jquery}
 						</Skill>
 						<Separator />
-						<Skill title="Gulp" level={2} />
-						<Separator />
-						<Skill title="Vue" level={1} />
+						<Skill title="Gulp" level={1} />
 						<Separator />
 						<Skill title="Svelte" level={1} />
 					</ShowMore>
@@ -89,7 +91,7 @@ export default function Skills() {
 			<section>
 				<Subtitle>{subtitles.s3}</Subtitle>
 				<Box>
-					<Skill title="Postgres" level={3} interested>
+					<Skill title="PostgreSQL" level={3} interested>
 						{details.postgres}
 					</Skill>
 					<Separator />
@@ -102,7 +104,7 @@ export default function Skills() {
 					</Skill>
 					<ShowMore>
 						<Separator />
-						<Skill title="SQLite (Development)" level={2} />
+						<Skill title="SQLite" level={3} />
 					</ShowMore>
 				</Box>
 			</section>
@@ -118,6 +120,8 @@ export default function Skills() {
 					</Skill>
 					<Separator />
 					<Skill title="Vercel" level={1} />
+					<Separator />
+					<Skill title="Render.com" level={1} />
 				</Box>
 			</section>
 			<section>
@@ -136,16 +140,16 @@ export default function Skills() {
 					</Skill>
 					<ShowMore>
 						<Separator />
-						<Skill title="Rust" level={2} interested>
+						<Skill title="Go" level={2} interested>
+							{details.go}
+						</Skill>
+						<Separator />
+						<Skill title="Rust" level={1} interested>
 							{details.rust}
 						</Skill>
 						<Separator />
 						<Skill title="PHP" level={2}>
 							{details.php}
-						</Skill>
-						<Separator />
-						<Skill title="GO" level={1} interested>
-							{details.go}
 						</Skill>
 						<Separator />
 						<Skill title="C#" level={1}>
@@ -158,7 +162,7 @@ export default function Skills() {
 				<section>
 					<Subtitle>{subtitles.s6}</Subtitle>
 					<Box>
-						<Skill title="Prisma" level={2} interested />
+						<Skill title="Prisma" level={3} />
 						<Separator />
 						<Skill title="TypeORM" level={2} />
 						<Separator />
@@ -192,10 +196,18 @@ export default function Skills() {
 						<Separator />
 						<Skill title="Passport.js" level={4} />
 						<Separator />
-						<Skill title="Jest" level={2} />
+						<Skill title="Jest" level={3} />
 						<ShowMore>
 							<Separator />
-							<Skill title="Webpack" level={2} />
+							<Skill title="Cypress" level={2} />
+							<Separator />
+							<Skill title="Google OAuth" level={1} />
+							<Separator />
+							<Skill title="Webpack" level={1} />
+							<Separator />
+							<Skill title="Figma" level={1} />
+							<Separator />
+							<Skill title="Monorepos" level={1} interested />
 							<Separator />
 							<Skill title="Docker" level={1} interested />
 							<Separator />

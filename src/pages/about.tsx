@@ -1,8 +1,8 @@
-import { useEffect, useState, useContext } from 'react';
-import LayoutContext from '../contexts/LayoutContext';
-import Header from '../components/Header';
-import Box from '../components/Box';
-import useTranslation from '../hooks/useTranslation';
+import { useContext, useEffect, useState } from 'react';
+import Box from 'src/components/Box';
+import Header from 'src/components/Header';
+import LayoutContext from 'src/contexts/LayoutContext';
+import useTranslation from 'src/hooks/useTranslation';
 
 const TEN_SECONDS = 10 * 1000;
 

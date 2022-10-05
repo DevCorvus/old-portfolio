@@ -1,10 +1,12 @@
-import { useState, useEffect, useRef, CSSProperties } from 'react';
 import Image from 'next/image';
 import Logo from 'public/images/devcorvus-logo.svg';
-import Header from './Header';
+import { CSSProperties, useEffect, useRef, useState } from 'react';
+import useTranslation from 'src/hooks/useTranslation';
+import { copyToClipboard } from 'src/utils/copyToClipboard';
+
 import Box from './Box';
+import Header from './Header';
 import Separator from './Separator';
-import useTranslation from '../hooks/useTranslation';
 
 const TWO_SECONDS = 2000;
 const CONTACT_EMAIL = 'devcorvus.contact@gmail.com';
@@ -33,9 +35,7 @@ export default function ContactInfo({ asPage = false }: { asPage?: boolean }) {
 	const hiddenDiscordInput = useRef<HTMLInputElement | null>(null);
 
 	const handleEmail = () => {
-		hiddenEmailInput.current?.select();
-		hiddenEmailInput.current?.setSelectionRange(0, 99999);
-		document.execCommand('copy'); // There's no safe alternative to this method yet.
+		copyToClipboard(hiddenEmailInput.current);
 
 		setEmail(copied);
 
@@ -44,11 +44,8 @@ export default function ContactInfo({ asPage = false }: { asPage?: boolean }) {
 		}, TWO_SECONDS);
 	};
 
-	// TODO: useContactCopy (?)
 	const handleDiscord = () => {
-		hiddenDiscordInput.current?.select();
-		hiddenDiscordInput.current?.setSelectionRange(0, 99999);
-		document.execCommand('copy');
+		copyToClipboard(hiddenDiscordInput.current);
 
 		setDiscord(copied);
 
@@ -104,7 +101,7 @@ export default function ContactInfo({ asPage = false }: { asPage?: boolean }) {
 						<a
 							className={`${
 								asPage ? 'text-sm' : 'text-xs'
-							} mt-1 flex items-center gap-1 text-rose-300 hover:text-rose-400 transition`}
+							} overflow-auto mt-1 flex items-center gap-1 text-rose-300 hover:text-rose-400 transition`}
 							href={`mailto:${CONTACT_EMAIL}`}
 						>
 							<span>{means.email.open}</span>

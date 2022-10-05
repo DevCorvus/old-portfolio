@@ -1,6 +1,6 @@
-import { useState, useEffect } from 'react';
+import { useEffect, useState } from 'react';
 
-const useBounce = (state: boolean = true): boolean => {
+export default function useBounce(state: boolean = true): boolean {
 	const [bounce, setBounce] = useState<boolean>(false);
 
 	useEffect(() => {
@@ -12,6 +12,4 @@ const useBounce = (state: boolean = true): boolean => {
 	}, [state]);
 
 	return bounce;
-};
-
-export default useBounce;
+}

@@ -1,8 +1,10 @@
-import { useState } from 'react';
-import { useTransition, animated } from '@react-spring/web';
 import Link from 'next/link';
+import { useState } from 'react';
+import useBounce from 'src/hooks/useBounce';
+
+import { animated, useTransition } from '@react-spring/web';
+
 import Links from './Links';
-import useBounce from '../hooks/useBounce';
 
 const backgroundStyle = {
 	background: 'linear-gradient(to right, #000000, #12002e)',

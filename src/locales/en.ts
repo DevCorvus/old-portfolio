@@ -36,28 +36,33 @@ const en = {
 	projects: {
 		title: 'Projects',
 		note: 'Currently, all the projects shown are personal and focused on very specific objectives. You can see detailed information on each of them in the "About" section respectively. The list will be expanded/organized as I make new deployments:',
+		visit: 'Visit demo',
 		details: {
-			project1: {
+			portfolio: {
 				title: 'DevCorvus',
 				description: 'Personal portfolio developed in Next.js',
 			},
-			project2: {
+			pictery: {
+				title: 'Pictery',
+				description: 'Image gallery manager developed in Vue and Express.js.',
+			},
+			devbanner: {
 				title: 'DevBanner',
 				description: 'Web development Blog built-in Laravel.',
 			},
-			project3: {
+			relyn: {
 				title: 'Relyn App',
 				description: 'Post-based app developed in the MERN stack.',
 			},
-			project4: {
+			pigeonClub: {
 				title: 'Pigeon Club',
-				description: 'Real-time chat developed in Socket.IO.',
+				description: 'Real-time chat developed in React and Socket.IO.',
 			},
-			project5: {
+			djangoTodoApp: {
 				title: 'Django Todo App',
 				description: 'Group-based todo app developed in Django.',
 			},
-			project6: {
+			flaskAnimals: {
 				title: 'Flask Animals',
 				description: 'CRUD and REST API developed in Flask.',
 			},
@@ -88,6 +93,7 @@ const en = {
 				"React and its ecosystem (React Router, Redux toolkit, styled-components, etc) is the main JavaScript framework (as a set) I use and have the most experience with. It just feels like the most comfortable tool for me in SPA development and I love it even though I know it's not nowhere near perfect.",
 			tailwind:
 				'It is the main CSS framework I use, especially to increase productivity on more detailed component-based designs.',
+			vue: 'Currently, this is the second framework that I have the most experience and feel most comfortable with behind React.',
 			bootstrap:
 				'When design is not a priority, this is usually my choice to get things done nice and quick.',
 			html: 'There is no trick to using it and I always try to apply some level of SEO and accessibility.',

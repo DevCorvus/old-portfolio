@@ -1,7 +1,7 @@
-import { useState, useEffect } from 'react';
-import { useRouter } from 'next/router';
 import Link from 'next/link';
-import useTranslation from '../hooks/useTranslation';
+import { useRouter } from 'next/router';
+import { useEffect, useState } from 'react';
+import useTranslation from 'src/hooks/useTranslation';
 
 type Direction = {
 	name: string;

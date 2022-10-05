@@ -1,6 +1,6 @@
 import { ReactNode, useState } from 'react';
-import useBounce from '../hooks/useBounce';
-import useTranslation from '../hooks/useTranslation';
+import useBounce from 'src/hooks/useBounce';
+import useTranslation from 'src/hooks/useTranslation';
 
 interface ShowMoreInterface {
 	children: ReactNode;

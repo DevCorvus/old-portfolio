@@ -1,14 +1,15 @@
-import { useEffect, useState, ReactNode } from 'react';
-import { useRouter } from 'next/router';
 import Head from 'next/head';
-import Navbar from './Navbar';
-import Innernav from './Innernav';
-import Footer from './Footer';
+import { useRouter } from 'next/router';
+import { ReactNode, useEffect, useState } from 'react';
+import LayoutContext from 'src/contexts/LayoutContext';
+import useBounce from 'src/hooks/useBounce';
+import useTranslation from 'src/hooks/useTranslation';
+
 import ContactPanel from './ContactInfo';
 import CurrentStatus from './CurrentStatus';
-import useBounce from '../hooks/useBounce';
-import useTranslation from '../hooks/useTranslation';
-import LayoutContext from '../contexts/LayoutContext';
+import Footer from './Footer';
+import Innernav from './Innernav';
+import Navbar from './Navbar';
 
 const IMAGE_PREVIEW_LINK =
 	'https://i.ibb.co/0m9zYMG/devcorvus-image-preview.png';

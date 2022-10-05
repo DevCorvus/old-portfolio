@@ -1,5 +1,5 @@
-import { ReactElement, useState, useEffect } from 'react';
 import { useRouter } from 'next/router';
+import { ReactElement, useEffect, useState } from 'react';
 
 export default function NavItem({ children }: { children: ReactElement }) {
 	const router = useRouter();

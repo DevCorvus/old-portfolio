@@ -1,6 +1,6 @@
 import { ReactNode, useState } from 'react';
-import useBounce from '../hooks/useBounce';
-import useTranslation from '../hooks/useTranslation';
+import useBounce from 'src/hooks/useBounce';
+import useTranslation from 'src/hooks/useTranslation';
 
 export default function ShowMore({ children }: { children: ReactNode }) {
 	const [show, setShow] = useState<boolean>(false);

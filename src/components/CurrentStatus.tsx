@@ -1,6 +1,7 @@
-import Subtitle from './Subtitle';
+import useTranslation from 'src/hooks/useTranslation';
+
 import Box from './Box';
-import useTranslation from '../hooks/useTranslation';
+import Subtitle from './Subtitle';
 
 const CURRENT_WORKING_STATUS = process.env.NEXT_PUBLIC_CURRENT_WORKING_STATUS;
 const working: boolean = CURRENT_WORKING_STATUS === 'true';

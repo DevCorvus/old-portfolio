@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import useTranslation from '../hooks/useTranslation';
+import useTranslation from 'src/hooks/useTranslation';
 
 export default function Custom404() {
 	const {

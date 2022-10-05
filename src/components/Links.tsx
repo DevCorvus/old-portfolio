@@ -1,7 +1,8 @@
 import Link from 'next/link';
-import useTranslation from '../hooks/useTranslation';
-import NavItem from './NavItem';
+import useTranslation from 'src/hooks/useTranslation';
+
 import Language from './Language';
+import NavItem from './NavItem';
 
 export default function Links() {
 	const { navbar } = useTranslation();

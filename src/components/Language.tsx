@@ -1,6 +1,7 @@
-import { useState } from 'react';
 import { useRouter } from 'next/router';
-import { useTransition, animated } from '@react-spring/web';
+import { useState } from 'react';
+
+import { animated, useTransition } from '@react-spring/web';
 
 export default function Language() {
 	const router = useRouter();

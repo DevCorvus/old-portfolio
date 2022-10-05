@@ -36,29 +36,35 @@ const es = {
 	projects: {
 		title: 'Proyectos',
 		note: 'Actualmente, todos los proyectos mostrados son personales y enfocados en objetivos muy concretos. Podrás ver información detallado en cada uno de ellos en la sección "Acerca de" respectivamente. La lista se irá expandiendo/organizando conforme realice nuevos despliegues:',
+		visit: 'Visitar demostración',
 		details: {
-			project1: {
+			portfolio: {
 				title: 'DevCorvus',
 				description: 'Portafolio personal desarrollado en Next.js',
 			},
-			project2: {
+			pictery: {
+				title: 'Pictery',
+				description:
+					'Gestor de galerías de imágenes desarrollado en Vue y Express.js.',
+			},
+			devbanner: {
 				title: 'DevBanner',
 				description: 'Blog de desarrollo web construido en Laravel.',
 			},
-			project3: {
+			relyn: {
 				title: 'Relyn App',
 				description:
 					'Aplicación de posts desarrollada en el stack tecnológico MERN.',
 			},
-			project4: {
+			pigeonClub: {
 				title: 'Pigeon Club',
-				description: 'Chat en tiempo real desarrollado en Socket.IO.',
+				description: 'Chat en tiempo real desarrollado en React y Socket.IO.',
 			},
-			project5: {
+			djangoTodoApp: {
 				title: 'Django Todo App',
 				description: 'Aplicación de tareas grupales desarrollada en Django.',
 			},
-			project6: {
+			flaskAnimals: {
 				title: 'Flask Animals',
 				description: 'CRUD y REST API desarrollado en Flask.',
 			},
@@ -89,6 +95,7 @@ const es = {
 				'React y su ecosistema (React Router, Redux toolkit, styled-components, etc) es el principal framework (como conjunto) de JavaScript que uso y con el que tengo más experiencia. Se siente como la herramienta más cómoda para mi en el desarrollo SPA y la adoro aunque sé que no es ni cerca de ser perfecta.',
 			tailwind:
 				'Es el principal framework de CSS que utilizo, especialmente para incrementar la productividad en diseños más detallados basados en componentes.',
+			vue: 'Actualmente, este es el segundo framework con el que tengo más experiencia y me siento más cómodo por detrás de React.',
 			bootstrap:
 				'Cuando el diseño no es una prioridad, esta suele ser mi elección para hacer las cosas bien y rápido.',
 			html: 'No hay truco en usarlo y trato siempre de aplicar cierto nivel de SEO y accesibilidad.',

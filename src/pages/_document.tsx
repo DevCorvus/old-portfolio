@@ -1,4 +1,4 @@
-import Document, { Html, Head, Main, NextScript } from 'next/document';
+import Document, { Head, Html, Main, NextScript } from 'next/document';
 
 const backgroundStyle = {
 	background: 'linear-gradient(to top, #12002e, #000000)',

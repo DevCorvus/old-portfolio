@@ -28,19 +28,19 @@ Just to play around with the code. The project structure is self-explanatory (I 
 
 1. Clone the repository:
 
-> `git clone https://github.com/DevCorvus/portfolio.git`
+`git clone https://github.com/DevCorvus/portfolio.git`
 
 2. Go to the root directory:
 
-> `cd portfolio`
+`cd portfolio`
 
 2. Install dependencies:
 
-> `npm install`
+`npm install`
 
 3. Execute the development environment:
 
-> `npm run dev`
+`npm run dev`
 
 4. Check your `http://localhost:3000` and that's it!
 

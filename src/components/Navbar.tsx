@@ -1,7 +1,8 @@
-import { useState, useRef, useCallback, useEffect } from 'react';
 import Link from 'next/link';
-import Slimbar from './Slimbar';
+import { useCallback, useEffect, useRef, useState } from 'react';
+
 import Links from './Links';
+import Slimbar from './Slimbar';
 
 const backgroundStyle = {
 	background: 'linear-gradient(to top, #000000, #12002e)',
