@@ -1,50 +1,18 @@
-# ✨ My Portfolio ✨
+# ✨ My Old Portfolio ✨
 
-This is the repo of my personal website and portfolio!
+> UPDATE: This repo is deprecated. [My current portfolio is here!](https://github.com/DevCorvus/devcorvus.github.io)
 
-[![DevCorvus Preview](/public/images/devcorvus.png)](https://www.devcorvus.com)
+This is the repo of my **old** personal website and portfolio.
 
-**Check it out: https://www.devcorvus.com**
+[![DevCorvus Preview](/public/images/devcorvus.png)](https://devcorvus.vercel.app)
 
----
+Check it out: https://devcorvus.vercel.app
 
 ## ⚗️ Tech stack
 
 - TypeScript
 - Next.js
 - TailwindCSS
-
-## 🧪 Try it locally
-
-Just to play around with the code. The project structure is self-explanatory (I believe).
-
-### **Requirements**
-
-1. Linux, MacOS and Windows (including WSL) are supported.
-2. Node.js 12.22.0 or later
-3. npm 6.14.11 or later
-
-### **Instructions**
-
-1. Clone the repository:
-
-`git clone https://github.com/DevCorvus/portfolio.git`
-
-2. Go to the root directory:
-
-`cd portfolio`
-
-2. Install dependencies:
-
-`npm install`
-
-3. Execute the development environment:
-
-`npm run dev`
-
-4. Check your `http://localhost:3000` and that's it!
-
----
 
 ## Made with love, passion and fun 💖
 
@@ -55,8 +23,6 @@ Each one contributed a lot to mature many of my skills and knowledge, through di
 Finishing this portfolio in itself was the culmination of what I had started and marks the end of one stage and the beginning of another in my professional career as a software developer. Still, I know that I should never stop learning, especially in this field, which I personally love!
 
 I didn't try to make an extravagant or business portfolio, just something that I could identify with; something with which to express myself and what I do. I feel like I successfully achieved that goal.
-
----
 
 ## What's next 💫
 
